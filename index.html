@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador y Desencriptador de Texto</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <main>
+    <div class="container">
+        <h1>Encriptador y Desencriptador de Texto</h1>
+        
+        <textarea id="inputText" placeholder="Escribe aquí tu texto..."></textarea>
+        
+        <div class="buttons">
+            <button onclick="encrypText()">Encriptar</button>
+            <button onclick="decryptText()">Desencriptar</button>
+            <button onclick="copyText()">Copiar al portapapeles</button>
+        </div>
+        
+        <textarea id="outputText" placeholder="Resultado..." readonly></textarea>
+    </div>
+
+    <script src="main.js"></script>
+    </main>
+
+    <footer>
+        <h2>By: <strong>Jhonatan Molina</strong></h2>
+    </footer>
+</body>
+</html>
